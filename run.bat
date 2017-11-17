@@ -1,2 +1,4 @@
-set FLASK_APP=.\src\main.py
-flask run -h 0.0.0.0
+set FLASK_APP=.\main.py
+cd src
+pipenv run flask run -h 0.0.0.0
+cd ..
